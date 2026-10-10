@@ -1,0 +1,36 @@
+# Local output and tool state
+/out/
+/build/
+/dist/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/compile_commands.json
+**/.gradle/
+**/.cxx/
+**/local.properties
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+
+# Android build artifacts
+*.apk
+*.aab
+*.dex
+*.img
+*.new.dat
+*.new.dat.br
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+# Signing material and local credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
